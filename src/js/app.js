@@ -5,7 +5,7 @@ const cards = document.querySelector('marvel-content')
 const fetchData = async (url_api) => {
     try {
         let response = await fetch(url_api)
-        return await response.json();
+        return response.json();
     } catch (error) {
         console.error(error);
     }
