@@ -1,0 +1,19 @@
+{
+  "name": "marvel",
+  "version": "1.0.0",
+  "description": "Marvel API",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelNav/marvel.git"
+  },
+  "author": "Angel Nava",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AngelNav/marvel/issues"
+  },
+  "homepage": "https://github.com/AngelNav/marvel#readme"
+}
