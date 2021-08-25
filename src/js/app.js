@@ -1,4 +1,4 @@
-const API = 'https://gateway.marvel.com:443/v1/public/characters?limit=99&ts=1&apikey=22fd5653b45808263128483cf3240a90&hash=6f47c4d94f6c820f322cc22412b7d8a1'
+const API = 'https://gateway.marvel.com:443/v1/public/characters?limit=50&ts=1&apikey=22fd5653b45808263128483cf3240a90&hash=6f47c4d94f6c820f322cc22412b7d8a1'
 let cards = document.querySelector('#marvel-content')
 
 
