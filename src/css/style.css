@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 ul {
     list-style: none;
 }
@@ -77,6 +81,7 @@ hr {
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+    margin-bottom: 20px;
 }
 
 .btn {
@@ -106,4 +111,32 @@ hr {
     background: #262626;
     opacity: .8;
     width: 90%;
+}
+
+
+/*------CARDS------*/
+
+.marvel-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 10px 0;
+}
+
+.card__img {
+    width: 100%;
+    height: 180px;
+}
+
+.card__title {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.card__link {
+    padding: 10px 0;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
 }
